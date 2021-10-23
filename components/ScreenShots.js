@@ -102,7 +102,7 @@ export default class MultipleItems extends Component {
       ]
     };
     return (
-      <div className="image-carousel">
+      <div className="image-carousel" id="screenshots">
         <div ref={this.imageView} className="fullscreen-image-container">
           <span><i className="fa fa-caret-right right-img" onClick={this.nextImg}></i></span>
           <span><i className="fa fa-caret-left left-img" onClick={this.previousImg}></i></span>
