@@ -44,7 +44,7 @@ class Nav extends React.Component {
                     <li className="active"><a href="#">Home</a></li>
                     <li className="smooth-scroll"><a href="#about">About</a></li>
                     <li><a href="#feature">Feature</a></li>
-                    <li><a href="#screnshots">screenshot</a></li>
+                    <li><a href="#screenshots">screenshot</a></li>
                     <li><a href="#reviews">Testimonial</a></li>
                     <li><a href="#contact">Contact</a></li>
                </ul>
@@ -55,7 +55,7 @@ class Nav extends React.Component {
                     <li className="active"><a href="#">Home</a></li>
                     <li className="smooth-scroll"><a href="#about">About</a></li>
                     <li><a href="#feature">Feature</a></li>
-                    <li><a href="#screnshots">screenshot</a></li>
+                    <li><a href="#screenshots">screenshot</a></li>
                     <li><a href="#reviews">Testimonial</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
