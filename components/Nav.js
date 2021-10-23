@@ -44,7 +44,7 @@ import React from 'react'
 
 class Nav extends React.Component {
   listener = null;
-  mobileMenu = React.createRef();
+  const mobileMenu = React.createRef();
   state = {
     nav:false
   }
