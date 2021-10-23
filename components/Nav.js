@@ -29,7 +29,7 @@ class Nav extends React.Component {
 
    }
    displayOrHideMenu = () => {
-        mobileMenu.current.classList.toggle('display');
+        this.mobileMenu.current.classList.toggle('display');
    }
 
   render(){
