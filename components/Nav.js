@@ -44,7 +44,7 @@ class Nav extends React.Component {
                     <li className="active"><a href="#">Home</a></li>
                     <li className="smooth-scroll"><a href="#about">About</a></li>
                     <li><a href="#feature">Feature</a></li>
-                    <li><a href="#screnshot">screenshot</a></li>
+                    <li><a href="#screnshots">screenshot</a></li>
                     <li><a href="#reviews">Testimonial</a></li>
                     <li><a href="#contact">Contact</a></li>
                </ul>
@@ -52,10 +52,10 @@ class Nav extends React.Component {
            </nav>
            <div className="mobile-menu" ref={this.mobileMenu}>
                 <ul className="uppercase">
-                    <li className="active"><a href="#slider">Home</a></li>
+                    <li className="active"><a href="#">Home</a></li>
                     <li className="smooth-scroll"><a href="#about">About</a></li>
                     <li><a href="#feature">Feature</a></li>
-                    <li><a href="#screnshot">screenshot</a></li>
+                    <li><a href="#screnshots">screenshot</a></li>
                     <li><a href="#reviews">Testimonial</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
