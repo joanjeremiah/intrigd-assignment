@@ -5,10 +5,11 @@ import MenuIcon from './MenuIcon'
 import React from 'react'
 
 class Nav extends React.Component {
-  listener = null;
-  mobileMenu = React.createRef();
-  state = {
-    nav:false
+  constructor(props) {
+    super(props);
+    this.state = { nav:false };
+    this.mobileMenu = React.createRef();
+    this.listener = null;
   }
   componentDidMount() {
      window.addEventListener("scroll", this.handleScroll);
